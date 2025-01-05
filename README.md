@@ -64,7 +64,15 @@ Before you begin, ensure you have the following installed:
 
 ## Building and Running in Production
 
-1. **Build the Application**
+1. **Install Dependencies**
+
+   To install the required dependencies for the application, run:
+
+   ```bash
+   npm install
+   ```
+
+2. **Build the Application**
 
    To create a production build of the application, run:
 
@@ -74,12 +82,12 @@ Before you begin, ensure you have the following installed:
 
    This command compiles the application and prepares it for deployment.
 
-2. **Start the Production Server**
+3. **Start the Production Server**
 
    After building the application, you can run it in production mode with:
 
    ```bash
-   npm start
+   npm run start
    ```
 
    The application will be accessible at `http://localhost:3000`.
