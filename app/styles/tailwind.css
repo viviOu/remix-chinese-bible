@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Essential styles */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Transitions */
+.ant-layout,
+.ant-menu,
+.ant-layout-sider {
+  transition: all 0.2s;
+}
+
+/* Font size transitions */
+html {
+  transition: font-size 0.2s ease-in-out;
+}
+
+/* Font size classes */
+html {
+  font-size: 16px;
+}
+
+html.text-lg {
+  font-size: 20px;
+}
+
+html.text-xl {
+  font-size: 24px;
+}

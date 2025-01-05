@@ -1,0 +1,23 @@
+{
+  "include": ["env.d.ts", "**/*.ts", "**/*.tsx", "app/routes/contacts.$contactId.tmp.tsx", "app/routes/bible.$bookId.$chapter.tmp.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "types": ["react", "react-dom", "node"],
+    "noEmit": true
+  }
+}
