@@ -90,7 +90,7 @@ Before you begin, ensure you have the following installed:
    npm run start
    ```
 
-   The application will be accessible at `http://localhost:3000`.
+   The application will be accessible at `http://localhost:8080`.
 
 ## Notes
 
