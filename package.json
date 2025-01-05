@@ -8,9 +8,9 @@
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "preview": "cross-env PORT=3000 remix-serve build/server/index.js",
+    "preview": "cross-env PORT=8080 remix-serve build/server/index.js",
     "typecheck": "tsc --noEmit --skipLibCheck",
-    "start": "cross-env NODE_ENV=production remix-serve build/server/index.js",
+    "start": "cross-env PORT=8080 NODE_ENV=production remix-serve build/server/index.js",
     "clean": "rm -rf build node_modules",
     "prebuild": "npm run clean && npm install",
     "postbuild": "cp -r public build/public"
