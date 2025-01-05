@@ -16,7 +16,7 @@ This project is a web application for accessing and reading the Chinese Bible. I
 
 Before you begin, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 20 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Git](https://git-scm.com/) (for version control)
 
