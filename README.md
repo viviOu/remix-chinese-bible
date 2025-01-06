@@ -1,6 +1,6 @@
 # Remix Chinese Bible
 
-This project is a web application for accessing and reading the Chinese Bible. It is built using [Remix](https://remix.run/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/).
+This project is a web application for accessing and reading the Chinese Bible. It is built using [Remix](https://remix.run/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), and [Ant Design](https://ant.design/).
 
 ## Table of Contents
 
