@@ -89,6 +89,10 @@ Before you begin, ensure you have the following installed:
    ```bash
    npm run start
    ```
+   Or if there's [PM2](https://pm2.keymetrics.io)
+   ```bash
+   pm2 --name Bible start npm -- start
+   ```
 
    The application will be accessible at `http://localhost:8080`.
 
